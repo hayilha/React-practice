@@ -1,4 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
+import Userprofile from './components/Userprofile'
+import Project from './components/Project';
+import Header from './components/Header';
+
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +28,14 @@ function App() {
   );
 }
 
+export default App;*/
+const App =() =>{
+  
+  return <div> 
+    <Header/>
+    <h1>Root Component</h1>
+<Userprofile age={20} Username="Amala"/>
+<Project/>
+  </div>
+}
 export default App;
