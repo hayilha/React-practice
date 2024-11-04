@@ -1,4 +1,16 @@
-body{
-    background-color: black;
-    color:white;
+
+.list-cat{
+    font: size 2.5em;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 10px;
+    text-align: center;
+    border:3px solid;
+    border-radius: 5px;
+     
+}
+.lists{
+    font: size 2em;
+    list-style:none;
+    text-align:center;
 }
