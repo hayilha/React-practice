@@ -14,7 +14,8 @@ const Userprofile = (props) => {
   )
 }
 Userprofile.propTypes={
-Username:PropTypes.string.isRequired
+Username:PropTypes.string.isRequired,
+age:PropTypes.number.isRequired
 }
 
 export default Userprofile;
