@@ -1,5 +1,6 @@
 
 import React ,{useState}from "react";
+
 function Login(){
     const[username,setUsername]=useState("")
     const[password,setPassword]=useState("")
@@ -15,7 +16,7 @@ setPassword("");
 
     
     return (
-        <div>
+        <div className="loginContainer">
             <h1>Login Page</h1>
             <form onSubmit={logInformation}>
             <label>
