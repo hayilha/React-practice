@@ -18,7 +18,7 @@ function formatTime(){
     const minutes=time.getMinutes()
     const seconds=time.getSeconds()
     const meridian=hours>=12?"PM ":"AM"
-    hours=hours%12 ||12;
+    hours=hours%24 ;
     return `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)}:${padZero(meridian)}`
 }
 function padZero(number){

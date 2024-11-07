@@ -11,8 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }*/
-
 /*
+
 body{
   display:flex;
   justify-content: center;
@@ -31,55 +31,7 @@ body{
       text-align: center;
   }
  Login.module.css Code for log in page
- 
-.loginContainer {
-  background-color: white;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
-  text-align: center;
-}
 
-h1 {
-  margin-bottom: 20px;
-  color: #333;
-  font-size: 2rem;
-}
-
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin: 15px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  box-sizing: border-box;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
-button {
-  background-color: #007bff;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  width: 100%;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
 
 p {
   margin-top: 10px;
@@ -87,8 +39,73 @@ p {
   color: #555;
 }*/
 
-.boxie{
+/*.boxie{
   border: 3px solid;
   padding:25px;
 
+}*/
+
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  justify-content: center;
+  min-height: 100vh;
 }
+
+.stopWatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius:50px;
+  background-color: white;
+  padding:30px
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color:black ;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.733);
+  margin-bottom: 25px;
+}
+.controls button{
+font-size:  1.5rem;
+font-weight: bold;
+padding: 10px 20px;
+margin: 5px;
+min-width:125px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+transition: background-color 0.5s ease;
+}
+.start-button{
+background-color: rgba(12, 122, 12, 0.692);
+
+}
+.start-button:hover{
+  background-color: rgba(18, 156, 18, 0.692);
+  
+  }
+  .stop-button{
+    background-color: rgba(204, 9, 9, 0.692);
+    
+    }
+    .stop-button:hover{
+      background-color: rgba(206, 48, 0, 0.692);
+      
+      }
+      .reset-button{
+        background-color: rgba(11, 12, 66, 0.692);
+        
+        }
+        .reset-button:hover{
+          background-color: rgba(64, 54, 126, 0.692);
+          
+          }
+          
+      

@@ -1,7 +1,14 @@
 import React from 'react';
+//import Login from './components/Login';
+//import DigitalClock from './components/DigitalClock';
+//import Statein from './components/Statein';
+//import Mod from './components/Mod';
+//import StopWatch from './components/StopWatch';
+//import Login from './components/Sign';
+import Sign from './components/Sign';
 //import DigitalClock from './components/DigitalClock';
 //import Mod from './components/Mod';
-import Ref from './components/Ref';
+//import Ref from './components/Ref';
 //import State from './components/State';
 //import Login from './components/Login';
 
@@ -20,7 +27,7 @@ import Ref from './components/Ref';
 const App =() =>{
   
   return <div> 
-<Ref/>
+<Sign/>
   </div>
 }
 export default App;
