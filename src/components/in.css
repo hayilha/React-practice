@@ -6,6 +6,7 @@
     width: 100%;
     max-width: 400px;
     text-align: center;
+    position: relative
   }
   
   h1 {
@@ -15,6 +16,7 @@
   }
   
   input[type="text"],
+  input[type='number'],
   input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -50,7 +52,7 @@
   
   p {
     margin-top: 10px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #555;
   }
   .error{
@@ -60,4 +62,29 @@
   button:disabled{
     background-color: #ccc;
     cursor: not-allowed;
+  }
+  .PhoneInputInput{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+
+  }
+  .loginContainer .bottom-link p {
+    margin-right: 5px; /* Space between the text and link */
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .loginContainer .bottom-link a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .loginContainer .bottom-link a:hover {
+    text-decoration: underline;
   }

@@ -6,6 +6,8 @@ import React from 'react';
 //import StopWatch from './components/StopWatch';
 //import Login from './components/Sign';
 import Sign from './components/Sign';
+import Login from './components/Login';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 //import DigitalClock from './components/DigitalClock';
 //import Mod from './components/Mod';
 //import Ref from './components/Ref';
@@ -27,8 +29,14 @@ import Sign from './components/Sign';
 const App =() =>{
   
   return <div> 
-<Sign/>
+<Router>
+  <Routes>
+    <Route path="/login" element={<Login/>}/>
+    <Route path="/" element={<Sign/>}></Route>
+  </Routes>
+</Router>
   </div>
 }
+
 export default App;
 
