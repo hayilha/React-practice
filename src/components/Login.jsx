@@ -1,12 +1,12 @@
 
 import React ,{useState}from "react";
 import './in.css'
-import { Link } from 'react-router-dom';
+import { Link,Navigate,useNavigate} from 'react-router-dom';
 function Login(){
     const[phone,setPhone]=useState("")
     const[password,setPassword]=useState("")
     const[message,setMessage]=useState("")
-  
+  const navigate=useNavigate();
     //const[errors,setErrors]=useState("")
     const logInformation=(event)=>{
         event.preventDefault();
@@ -31,6 +31,7 @@ function Login(){
 
         if(userId!==-1 && store[userId]===password)
         {setMessage("Login was successful!!")
+            navigate("/landing");
         }else{setMessage("Incorrect credentials.Please try again!")}
 
         setPhone("");
@@ -57,7 +58,7 @@ function Login(){
                 onChange={(e)=>setPassword(e.target.value)} required/>
             </label>
             </div>
-            <button  type="submit">Log In</button>
+          <button  type="submit">Log In</button> 
             <p>Don't have an account? <Link to="/"><p>Sign Up!</p></Link></p>
             </form>
             {message &&<p>{message}</p>}

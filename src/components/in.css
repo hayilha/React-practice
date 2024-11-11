@@ -34,7 +34,7 @@
   }
   
   button {
-    background-color: #007bff;
+    background-color: purple;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -47,7 +47,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #85547f;
   }
   
   p {
@@ -74,7 +74,7 @@
 
   }
   .loginContainer .bottom-link p {
-    margin-right: 5px; /* Space between the text and link */
+    margin-right: 5px; 
     font-size: 14px;
     color: #555;
   }
