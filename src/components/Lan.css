@@ -1,0 +1,96 @@
+body{
+    font-family: 'Arial';
+    margin:0;
+    padding:0;
+    background-color: #f4f7fc;
+color: #333;
+
+}
+h2{
+    text-align:center;
+    text-indent: -800px;
+    color: #940e82;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom:30px;
+    text-transform: capitalize;
+
+}
+.search-input{
+    padding: 10px;
+    margin: 20px 0;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1 rem;
+}
+Landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+
+}
+Landing h2{
+    font-size: 2rem;
+    color: purple;
+    margin-bottom: 20px;
+}
+.data-tab{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    box-shadow:0 2px 8px rgba(0, 0, 0,0.1);
+    max-width:1200px;
+    margin:30px auto
+}
+.data-tab th,
+.data-tab td{
+    padding: 8px 10px;
+    text-align: left;
+    font-size:0.95rem
+}
+.data-tab-wrapper{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.data-tab th{
+    background-color: #2c3e50;
+    color: #fff;
+    font-weight: 600;
+}
+.data-tab td{
+    background-color: #fff;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+}
+.data-tab tr:hover td{
+    background-color: #f1f1f1;
+}
+@media(max-width:768px){
+    .data-tab th,.data-tab th{
+        font-size: 0.85rem;
+        padding: 6px 8px;
+    }
+}
+.space{
+    background-color: purple;
+    color: white;
+    padding: 50px 120px;
+    text-align: center;
+    font-size: 1.8rem;
+    width:100%;
+    margin-bottom:50px
+}
+h1{
+    color: white;
+    font:arial;
+    font-size: 15px;
+  font-weight: bold;
+margin :10px 30px;
+text-decoration: none;
+margin-left:40px
+}

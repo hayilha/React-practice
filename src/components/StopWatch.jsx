@@ -44,7 +44,7 @@ milliseconds=String(milliseconds).padStart(2,"0")
     return(`${minutes}:${seconds}:${milliseconds}`)
 }
 return(
-   <div className="stopwatch">
+   <div className="stopWatch">
 <div className="display"> {formatTime()}</div>
 <div className="controls">
 <button onClick={start} className="start-button">Start</button>

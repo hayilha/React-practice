@@ -8,6 +8,7 @@ import React from 'react';
 import Sign from './components/Sign';
 import Login from './components/Login';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Landing from './components/Landing';
 //import DigitalClock from './components/DigitalClock';
 //import Mod from './components/Mod';
 //import Ref from './components/Ref';
@@ -25,7 +26,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 //import Update from './components/Update';
 //import Tic from './components/Tic';
 //import Statein from './components/Statein';
-
+import {data} from './components/Policy_data.js'
 const App =() =>{
   
   return <div> 
@@ -33,6 +34,7 @@ const App =() =>{
   <Routes>
     <Route path="/login" element={<Login/>}/>
     <Route path="/" element={<Sign/>}></Route>
+    <Route path="/landing"element={<Landing/>}></Route>
   </Routes>
 </Router>
   </div>

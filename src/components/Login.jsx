@@ -31,6 +31,7 @@ function Login(){
 
         if(userId!==-1 && store[userId]===password)
         {setMessage("Login was successful!!")
+            localStorage.setItem('currentEmail',storeed[userId])
             navigate("/landing");
         }else{setMessage("Incorrect credentials.Please try again!")}
 
@@ -59,7 +60,7 @@ function Login(){
             </label>
             </div>
           <button  type="submit">Log In</button> 
-            <p>Don't have an account? <Link to="/"><p>Sign Up!</p></Link></p>
+            <p>Don't have an account? <Link to="/">Sign Up!</Link></p>
             </form>
             {message &&<p>{message}</p>}
         </div>
