@@ -26,7 +26,7 @@ import Landing from './components/Landing';
 //import Update from './components/Update';
 //import Tic from './components/Tic';
 //import Statein from './components/Statein';
-import {data} from './components/Policy_data.js'
+
 const App =() =>{
   
   return <div> 

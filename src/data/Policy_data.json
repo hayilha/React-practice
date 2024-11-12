@@ -1,5 +1,5 @@
-export const data=
-     [
+{
+   "data":  [
         {
             "PROPOSAL_NUMBER": "PCLP1006001180227148",
             "POLICY_NUMBER": "CLP1006001180227148",
@@ -415,5 +415,5 @@ export const data=
             "Payment_Frequency": "Monthly"
         }
        
-    ]
+    ]}
 
